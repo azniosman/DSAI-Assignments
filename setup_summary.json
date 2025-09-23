@@ -1,0 +1,36 @@
+{
+  "profile": "standard_ds",
+  "environment": {
+    "type": "conda",
+    "name_or_path": "DSAI-Assignments-standard_ds"
+  },
+  "duration_seconds": 75.23,
+  "installed_packages": [
+    "scikit-learn",
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "notebook",
+    "ipykernel",
+    "joblib",
+    "tqdm",
+    "pydantic",
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "pre-commit"
+  ],
+  "failed_packages": [],
+  "notes": [
+    "Prefer Miniforge/conda-forge and arm64 wheels. Some packages require special builds."
+  ],
+  "system": {
+    "os": "Darwin Darwin Kernel Version 25.0.0: Mon Aug 25 21:17:54 PDT 2025; root:xnu-12377.1.9~3/RELEASE_ARM64_T6041",
+    "machine": "arm64",
+    "python": "3.12.11"
+  }
+}

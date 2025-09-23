@@ -1,0 +1,59 @@
+2025-09-23 22:23:59 [INFO] Logger initialized.
+2025-09-23 22:23:59 [INFO] Detecting system hardware and environment...
+2025-09-23 22:24:00 [INFO] System detection complete.
+2025-09-23 22:24:40 [WARN] Interrupted by user (KeyboardInterrupt). Exiting.
+2025-09-23 22:25:51 [INFO] Logger initialized.
+2025-09-23 22:25:51 [INFO] Detecting system hardware and environment...
+2025-09-23 22:25:51 [INFO] System detection complete.
+2025-09-23 22:25:55 [INFO] Validating prerequisites (non-invasive checks)...
+2025-09-23 22:25:55 [INFO] Selected environment manager: conda
+2025-09-23 22:26:04 [INFO] Creating conda environment 'DSAI-Assignments-standard_ds' (python=3.11)
+2025-09-23 22:26:16 [INFO] Conda env 'DSAI-Assignments-standard_ds' created or confirmed.
+2025-09-23 22:26:16 [INFO] Resolving packages for profile 'standard_ds'
+2025-09-23 22:26:16 [ERROR] Unexpected error: 'ConfigManager' object has no attribute 'profiles'
+2025-09-23 22:26:54 [INFO] Logger initialized.
+2025-09-23 22:26:54 [INFO] Detecting system hardware and environment...
+2025-09-23 22:26:54 [INFO] System detection complete.
+2025-09-23 22:26:54 [INFO] Validating prerequisites (non-invasive checks)...
+2025-09-23 22:26:54 [INFO] Selected environment manager: conda
+2025-09-23 22:26:54 [INFO] Creating conda environment 'DSAI-Assignments-standard_ds' (python=3.11)
+2025-09-23 22:26:54 [INFO] Conda env 'DSAI-Assignments-standard_ds' created or confirmed.
+2025-09-23 22:26:54 [INFO] Resolving packages for profile 'standard_ds'
+2025-09-23 22:26:54 [INFO] Dry-run complete. No changes applied.
+2025-09-23 22:27:24 [INFO] Logger initialized.
+2025-09-23 22:27:24 [INFO] Detecting system hardware and environment...
+2025-09-23 22:27:24 [INFO] System detection complete.
+2025-09-23 22:27:25 [INFO] Validating prerequisites (non-invasive checks)...
+2025-09-23 22:27:25 [INFO] Selected environment manager: conda
+2025-09-23 22:27:26 [INFO] Creating conda environment 'DSAI-Assignments-standard_ds' (python=3.11)
+2025-09-23 22:27:36 [INFO] Conda env 'DSAI-Assignments-standard_ds' created or confirmed.
+2025-09-23 22:27:36 [INFO] Resolving packages for profile 'standard_ds'
+2025-09-23 22:27:36 [INFO] Conda installing: scikit-learn
+2025-09-23 22:27:40 [INFO] pip installing 'numpy'
+2025-09-23 22:27:48 [INFO] pip installing 'pandas'
+2025-09-23 22:28:05 [INFO] pip installing 'scipy'
+2025-09-23 22:28:06 [INFO] pip installing 'matplotlib'
+2025-09-23 22:28:10 [INFO] pip installing 'seaborn'
+2025-09-23 22:28:12 [INFO] pip installing 'jupyterlab'
+2025-09-23 22:28:24 [INFO] pip installing 'notebook'
+2025-09-23 22:28:26 [INFO] pip installing 'ipykernel'
+2025-09-23 22:28:27 [INFO] pip installing 'joblib'
+2025-09-23 22:28:28 [INFO] pip installing 'tqdm'
+2025-09-23 22:28:29 [INFO] pip installing 'pydantic'
+2025-09-23 22:28:31 [INFO] pip installing 'pytest'
+2025-09-23 22:28:33 [INFO] pip installing 'black'
+2025-09-23 22:28:35 [INFO] pip installing 'isort'
+2025-09-23 22:28:36 [INFO] pip installing 'flake8'
+2025-09-23 22:28:37 [INFO] pip installing 'pre-commit'
+2025-09-23 22:28:39 [INFO] Scaffolding project at /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments with package 'DSAI_Assignments'
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/src/DSAI_Assignments/__init__.py
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/src/DSAI_Assignments/utils.py
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/tests/test_utils.py
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/tests/conftest.py
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/README.md
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/docs/index.md
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/requirements.txt
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/requirements-dev.txt
+2025-09-23 22:28:39 [INFO] Wrote file: /Users/azni/Library/Mobile Documents/com~apple~CloudDocs/NTU/DSAI-Assignments/pyproject.toml
+2025-09-23 22:28:39 [INFO] Wrote summary to setup_summary.json
+2025-09-23 22:28:39 [INFO] Setup completed successfully.
