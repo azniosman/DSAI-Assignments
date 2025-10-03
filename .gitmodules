@@ -1,0 +1,3 @@
+[submodule "courses/5m-data-1.1-intro-data-science"]
+	path = courses/5m-data-1.1-intro-data-science
+	url = https://github.com/azniosman/5m-data-1.1-intro-data-science.git
