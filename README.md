@@ -104,31 +104,6 @@ DSAI-Assignments/
         └── projects/                            # Module projects
 ```
 
----
-
-## 🛠 Environment Setup
-
-This repository uses Conda for environment management. To set up the development environment:
-
-```bash
-# Clone the repository with submodules
-git clone --recursive https://github.com/azniosman/DSAI-Assignments.git
-cd DSAI-Assignments
-
-# Create conda environment from environment.yml
-conda env create -f environment.yml
-
-# Activate the environment
-conda activate dsai
-```
-
-If you've already cloned the repository without submodules:
-```bash
-git submodule update --init --recursive
-```
-
----
-
 ## 👤 Author
 
 **Muhammad Azni Osman**
