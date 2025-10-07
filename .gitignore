@@ -1,0 +1,236 @@
+# Python .gitignore with Security Best Practices
+
+# ========================================
+# SECURITY-SENSITIVE FILES (NEVER COMMIT)
+# ========================================
+
+# Environment variables and secrets
+.env
+.env.*
+.envrc
+*.env
+env.local
+env.production
+
+# Credentials and API keys
+credentials.json
+secrets.yaml
+secrets.yml
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+id_rsa
+id_dsa
+*.pub
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# Google Cloud credentials
+gcloud_credentials.json
+service-account*.json
+
+# SSH keys
+.ssh/
+
+# Configuration files with sensitive data
+config.ini
+config.yaml
+config.yml
+settings.local.py
+local_settings.py
+
+# Database files with potential sensitive data
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Backup files (may contain sensitive data)
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# ========================================
+# PYTHON
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+pipenv/
+poetry.lock
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ========================================
+# IDEs and EDITORS
+# ========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ========================================
+# OPERATING SYSTEMS
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# LOGS AND TEMPORARY FILES
+# ========================================
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ========================================
+# PROJECT-SPECIFIC
+# ========================================
+
+# Add your project-specific ignores here
+# Example:
+# data/raw/
+# models/trained/
+# output/
