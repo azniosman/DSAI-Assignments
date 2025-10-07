@@ -17,7 +17,6 @@
 - [Overview](#-overview)
 - [Modules](#-modules)
 - [Repository Structure](#-repository-structure)
-- [Environment Setup](#-environment-setup)
 - [Author](#-author)
 
 ---
