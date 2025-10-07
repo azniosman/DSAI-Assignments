@@ -27,7 +27,7 @@ This repository serves as a centralized hub for NTU DSAI program assignments, pr
 ```
 DSAI-Assignments/
 ├── README.md                          # This comprehensive documentation
-└── courses/                           # Course-specific materials
+└── lessons/                           # Lessons-specific materials
     └── 5m-data-1.1-intro-data-science/
         └── assignment.py              # Python assignment solutions
 ```
