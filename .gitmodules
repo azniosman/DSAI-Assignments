@@ -1,3 +1,6 @@
 [submodule "lessons/5m-data-1.1-intro-data-science"]
 	path = lessons/5m-data-1.1-intro-data-science
 	url = https://github.com/azniosman/5m-data-1.1-intro-data-science.git
+[submodule "lessons/5m-data-1.2-intro-database"]
+	path = lessons/5m-data-1.2-intro-database
+	url = https://github.com/azniosman/5m-data-1.2-intro-database.git
